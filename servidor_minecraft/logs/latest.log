@@ -1,123 +1,404 @@
-[28Jun2025 04:41:38.992] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-[28Jun2025 04:41:38.996] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[28Jun2025 04:41:39.107] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gaturro/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[28Jun2025 04:41:39.155] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/gaturro/servidor_minecraft/config/fml.toml is not correct. Correcting
-[28Jun2025 04:41:39.163] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[28Jun2025 04:41:39.165] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
-[28Jun2025 04:41:39.359] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gaturro/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[28Jun2025 04:41:39.361] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gaturro/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[28Jun2025 04:41:39.362] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gaturro/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[28Jun2025 04:41:39.364] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gaturro/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[28Jun2025 04:41:39.481] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[28Jun2025 04:41:40.885] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[28Jun2025 04:41:44.261] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[28Jun2025 04:41:46.487] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[28Jun2025 04:41:46.490] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[28Jun2025 04:41:46.904] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/gaturro/servidor_minecraft/config/forge-common.toml is not correct. Correcting
-[28Jun2025 04:41:46.905] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[28Jun2025 04:41:46.906] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
-[28Jun2025 04:41:46.906] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
-[28Jun2025 04:41:46.906] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
-[28Jun2025 04:41:47.115] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28Jun2025 04:41:47.599] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
-[28Jun2025 04:41:47.985] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28Jun2025 04:41:48.012] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/gaturro/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%2399!/assets/.mcassetsroot' uses unexpected schema
-[28Jun2025 04:41:48.012] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/gaturro/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%2399!/data/.mcassetsroot' uses unexpected schema
-[28Jun2025 04:41:50.171] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[28Jun2025 04:41:50.672] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[28Jun2025 04:41:51.150] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[28Jun2025 04:41:51.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[28Jun2025 04:41:51.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[28Jun2025 04:41:51.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28Jun2025 04:41:51.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[28Jun2025 04:41:51.343] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[28Jun2025 04:41:51.432] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[28Jun2025 04:41:51.433] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[28Jun2025 04:41:51.433] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[28Jun2025 04:41:51.434] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[28Jun2025 04:41:51.461] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[28Jun2025 04:41:51.462] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[28Jun2025 04:41:51.462] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[28Jun2025 04:41:51.462] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[28Jun2025 04:41:51.463] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[28Jun2025 04:41:51.463] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[28Jun2025 04:41:51.464] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[28Jun2025 04:41:51.464] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
-[28Jun2025 04:41:51.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[28Jun2025 04:41:51.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[28Jun2025 04:41:54.107] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[28Jun2025 04:42:05.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28Jun2025 04:42:06.520] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jun2025 04:42:06.526] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jun2025 04:42:06.807] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jun2025 04:42:07.233] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jun2025 04:42:07.734] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jun2025 04:42:08.228] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jun2025 04:42:08.733] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[28Jun2025 04:42:09.224] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[28Jun2025 04:42:09.760] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[28Jun2025 04:42:10.235] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[28Jun2025 04:42:10.734] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[28Jun2025 04:42:11.226] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[28Jun2025 04:42:11.725] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[28Jun2025 04:42:12.229] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[28Jun2025 04:42:12.742] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[28Jun2025 04:42:13.232] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[28Jun2025 04:42:13.737] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[28Jun2025 04:42:14.242] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[28Jun2025 04:42:14.727] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[28Jun2025 04:42:15.230] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[28Jun2025 04:42:15.734] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[28Jun2025 04:42:16.238] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[28Jun2025 04:42:16.725] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
-[28Jun2025 04:42:17.239] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[28Jun2025 04:42:17.727] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[28Jun2025 04:42:18.226] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[28Jun2025 04:42:18.742] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[28Jun2025 04:42:19.224] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[28Jun2025 04:42:19.728] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[28Jun2025 04:42:20.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[28Jun2025 04:42:20.724] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[28Jun2025 04:42:21.224] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[28Jun2025 04:42:21.744] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[28Jun2025 04:42:22.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[28Jun2025 04:42:22.725] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[28Jun2025 04:42:24.512] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[28Jun2025 04:42:24.513] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[28Jun2025 04:42:24.513] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[28Jun2025 04:42:24.728] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[28Jun2025 04:42:25.225] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
-[28Jun2025 04:42:25.727] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[28Jun2025 04:42:26.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[28Jun2025 04:42:26.728] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[28Jun2025 04:42:27.244] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[28Jun2025 04:42:27.725] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[28Jun2025 04:42:28.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[28Jun2025 04:42:28.726] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
-[28Jun2025 04:42:29.226] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[28Jun2025 04:42:29.726] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[28Jun2025 04:42:30.240] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[28Jun2025 04:42:30.728] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[28Jun2025 04:42:31.231] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[28Jun2025 04:42:31.725] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[28Jun2025 04:42:32.236] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[28Jun2025 04:42:32.731] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[28Jun2025 04:42:33.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[28Jun2025 04:42:33.724] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[28Jun2025 04:42:34.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[28Jun2025 04:42:34.734] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
-[28Jun2025 04:42:35.225] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[28Jun2025 04:42:35.500] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 29777 ms
-[28Jun2025 04:42:35.500] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (44.047s)! For help, type "help"
-[28Jun2025 04:42:35.507] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[28Jun2025 04:42:46.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[28Jun2025 04:42:46.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[28Jun2025 04:42:46.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[28Jun2025 04:42:46.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[28Jun2025 04:42:47.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[28Jun2025 04:42:49.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[28Jun2025 04:42:49.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[28Jun2025 04:42:49.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[28Jun2025 04:42:49.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[28Jun2025 04:42:49.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[28Jun2025 04:42:49.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[28Jun2025 04:45:33.951] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[28Jun2025 04:45:33.958] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[28Jun2025 04:45:34.377] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[28Jun2025 04:45:34.431] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/gaturro/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[28Jun2025 04:45:34.843] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gaturro/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[28Jun2025 04:45:34.845] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gaturro/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[28Jun2025 04:45:34.846] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gaturro/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[28Jun2025 04:45:34.848] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/gaturro/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[28Jun2025 04:45:35.097] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[28Jun2025 04:45:35.098] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[28Jun2025 04:45:37.161] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28Jun2025 04:45:37.264] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
+[28Jun2025 04:45:37.425] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[28Jun2025 04:45:37.426] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[28Jun2025 04:45:37.443] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[28Jun2025 04:45:37.472] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 30 options available, 2 override(s) found
+[28Jun2025 04:45:37.478] [main/WARN] [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Jun2025 04:45:37.556] [main/WARN] [ModernFixConfig/]: ModelDataManager bugfixes have been disabled to prevent broken rendering with Rubidium installed. Please migrate to Embeddium.
+[28Jun2025 04:45:37.561] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.17.0+mc1.19.2: 84 options available, 3 override(s) found
+[28Jun2025 04:45:37.563] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.model_data_manager_cme' overriden (by mods [rubidium]) to 'false'
+[28Jun2025 04:45:37.563] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [dimthread]) to 'false'
+[28Jun2025 04:45:37.565] [main/WARN] [ModernFix/]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
+[28Jun2025 04:45:37.566] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[28Jun2025 04:45:37.586] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[28Jun2025 04:45:37.621] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Jun2025 04:45:37.644] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Jun2025 04:45:37.668] [main/WARN] [mixin/]: Reference map 'brrp-forge-forge-refmap.json' for brrp-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Jun2025 04:45:37.690] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[28Jun2025 04:45:37.711] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Jun2025 04:45:37.754] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[28Jun2025 04:45:38.161] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
+[28Jun2025 04:45:38.161] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
+[28Jun2025 04:45:38.162] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found darkness.client.json:MixinGameRenderer
+[28Jun2025 04:45:38.163] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/LightTexture for invalid dist DEDICATED_SERVER
+[28Jun2025 04:45:38.170] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/LightTexture (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/LightTexture for invalid dist DEDICATED_SERVER)
+[28Jun2025 04:45:38.170] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.LightTexture was not found darkness.client.json:MixinLightTexture
+[28Jun2025 04:45:38.171] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/texture/DynamicTexture (java.lang.ClassNotFoundException: net.minecraft.client.renderer.texture.DynamicTexture)
+[28Jun2025 04:45:38.172] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.texture.DynamicTexture was not found darkness.client.json:MixinDynamicTexture
+[28Jun2025 04:45:38.172] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/DimensionSpecialEffects$EndEffects for invalid dist DEDICATED_SERVER
+[28Jun2025 04:45:38.173] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/DimensionSpecialEffects$EndEffects (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/DimensionSpecialEffects$EndEffects for invalid dist DEDICATED_SERVER)
+[28Jun2025 04:45:38.173] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.DimensionSpecialEffects$EndEffects was not found darkness.client.json:MixinEndEffects
+[28Jun2025 04:45:38.173] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/DimensionSpecialEffects$NetherEffects for invalid dist DEDICATED_SERVER
+[28Jun2025 04:45:38.175] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/DimensionSpecialEffects$NetherEffects (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/DimensionSpecialEffects$NetherEffects for invalid dist DEDICATED_SERVER)
+[28Jun2025 04:45:38.175] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.DimensionSpecialEffects$NetherEffects was not found darkness.client.json:MixinNetherEffects
+[28Jun2025 04:45:38.262] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Jun2025 04:45:38.338] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Jun2025 04:45:38.581] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER
+[28Jun2025 04:45:38.581] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/model/ModelBakery (java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER)
+[28Jun2025 04:45:38.581] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.model.ModelBakery was not found lightspeed.mixins.json:model.ModelBakeryMixin
+[28Jun2025 04:45:38.591] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[28Jun2025 04:45:38.595] [main/WARN] [mixin/]: Error loading class: dev/ftb/mods/ftbchunks/data/ClaimedChunkManager (java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.data.ClaimedChunkManager)
+[28Jun2025 04:45:38.595] [main/WARN] [mixin/]: @Mixin target dev.ftb.mods.ftbchunks.data.ClaimedChunkManager was not found doespotatotick.mixins.json:ClaimedChunkManagerAccessor
+[28Jun2025 04:45:38.918] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[28Jun2025 04:45:39.455] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
+[28Jun2025 04:45:39.460] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/DataFixerOptimizationOption
+[28Jun2025 04:45:39.485] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[28Jun2025 04:45:39.513] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[28Jun2025 04:45:39.696] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (7.767 s after launch)
+[28Jun2025 04:45:39.774] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[28Jun2025 04:45:39.784] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[28Jun2025 04:45:39.828] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[28Jun2025 04:45:39.829] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[28Jun2025 04:45:40.078] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Jun2025 04:45:40.079] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Jun2025 04:45:40.760] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction
+[28Jun2025 04:45:40.763] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$AxisDirection
+[28Jun2025 04:45:40.764] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Axis
+[28Jun2025 04:45:40.790] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/PushReaction
+[28Jun2025 04:45:40.840] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[28Jun2025 04:45:40.881] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Plane
+[28Jun2025 04:45:40.883] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/FrontAndTop
+[28Jun2025 04:45:40.888] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[28Jun2025 04:45:40.888] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[28Jun2025 04:45:40.889] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[28Jun2025 04:45:40.890] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[28Jun2025 04:45:40.892] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[28Jun2025 04:45:40.893] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[28Jun2025 04:45:40.894] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[28Jun2025 04:45:40.898] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[28Jun2025 04:45:40.899] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[28Jun2025 04:45:40.900] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[28Jun2025 04:45:40.900] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[28Jun2025 04:45:40.901] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[28Jun2025 04:45:40.902] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[28Jun2025 04:45:40.903] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[28Jun2025 04:45:40.904] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[28Jun2025 04:45:40.905] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[28Jun2025 04:45:40.906] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[28Jun2025 04:45:40.906] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[28Jun2025 04:45:40.907] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[28Jun2025 04:45:40.909] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[28Jun2025 04:45:40.954] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1255 milliseconds
+[28Jun2025 04:45:40.996] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkDirection
+[28Jun2025 04:45:41.038] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/DyeColor
+[28Jun2025 04:45:41.135] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[28Jun2025 04:45:41.138] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[28Jun2025 04:45:41.270] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[28Jun2025 04:45:41.353] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/MultifaceSpreader$SpreadType
+[28Jun2025 04:45:41.373] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionHand
+[28Jun2025 04:45:41.403] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Jun2025 04:45:41.404] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Jun2025 04:45:41.406] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionResult
+[28Jun2025 04:45:41.409] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[28Jun2025 04:45:41.458] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[28Jun2025 04:45:41.713] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[28Jun2025 04:45:41.760] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Kind
+[28Jun2025 04:45:41.861] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[28Jun2025 04:45:41.862] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[28Jun2025 04:45:41.898] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[28Jun2025 04:45:41.948] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobCategory
+[28Jun2025 04:45:42.232] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[28Jun2025 04:45:42.446] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Pose
+[28Jun2025 04:45:42.451] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[28Jun2025 04:45:42.451] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[28Jun2025 04:45:42.753] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[28Jun2025 04:45:42.780] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[28Jun2025 04:45:42.787] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[28Jun2025 04:45:42.788] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/TerrainAdjustment
+[28Jun2025 04:45:42.800] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[28Jun2025 04:45:42.818] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type
+[28Jun2025 04:45:42.836] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type
+[28Jun2025 04:45:42.849] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/JigsawBlockEntity$JointType
+[28Jun2025 04:45:42.859] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement
+[28Jun2025 04:45:42.868] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod
+[28Jun2025 04:45:42.872] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[28Jun2025 04:45:42.927] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[28Jun2025 04:45:42.928] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by com.abdelaziz.saturn.mixin.leaks.biome_temperature_cache.BiomeMixin. Skipping method.
+[28Jun2025 04:45:42.930] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[28Jun2025 04:45:42.934] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[28Jun2025 04:45:43.042] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[28Jun2025 04:45:43.061] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[28Jun2025 04:45:43.064] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd$Type
+[28Jun2025 04:45:43.065] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[28Jun2025 04:45:43.109] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[28Jun2025 04:45:43.111] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[28Jun2025 04:45:43.126] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[28Jun2025 04:45:43.155] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/OreVeinifier$VeinType
+[28Jun2025 04:45:43.169] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[28Jun2025 04:45:43.172] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[28Jun2025 04:45:43.177] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[28Jun2025 04:45:43.179] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[28Jun2025 04:45:43.183] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[28Jun2025 04:45:43.717] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Rarity
+[28Jun2025 04:45:43.725] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[28Jun2025 04:45:43.752] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[28Jun2025 04:45:43.755] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[28Jun2025 04:45:43.756] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorMaterials
+[28Jun2025 04:45:43.767] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Tiers
+[28Jun2025 04:45:43.791] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ChatTypeDecoration$Parameter
+[28Jun2025 04:45:43.810] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[28Jun2025 04:45:43.811] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[28Jun2025 04:45:43.839] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[28Jun2025 04:45:43.853] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[28Jun2025 04:45:44.082] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[28Jun2025 04:45:44.297] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Phase
+[28Jun2025 04:45:44.298] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Type
+[28Jun2025 04:45:44.299] [modloading-worker-0/WARN] [auudio/Auudio/]: WARNING: Auudio is a client mod and has no effect when loaded on a server!
+[28Jun2025 04:45:44.317] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/PackType
+[28Jun2025 04:45:44.391] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/majruszlibrary/events/base/Priority
+[28Jun2025 04:45:44.410] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.TagsFeature
+[28Jun2025 04:45:44.413] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/LootContext$EntityTarget
+[28Jun2025 04:45:44.420] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobSpawnType
+[28Jun2025 04:45:44.446] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.FixFeature
+[28Jun2025 04:45:44.460] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.AEC3DFeature
+[28Jun2025 04:45:44.498] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[28Jun2025 04:45:44.498] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: darkness, class grondag.darkness.DarknessMod
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3373) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3578) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23253!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[28Jun2025 04:45:44.523] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/Commands$CommandSelection
+[28Jun2025 04:45:44.573] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/sounds/SoundSource
+[28Jun2025 04:45:44.594] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[28Jun2025 04:45:44.675] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/BiomeModifier$Phase
+[28Jun2025 04:45:44.705] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/api/event/TickPhase
+[28Jun2025 04:45:44.706] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/aetherteam/aether/recipe/AetherBookCategory
+[28Jun2025 04:45:44.710] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/api/event/EventPriority
+[28Jun2025 04:45:44.740] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/capabilities/CapabilityManager
+[28Jun2025 04:45:44.753] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[28Jun2025 04:45:44.764] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/UseAnim
+[28Jun2025 04:45:44.767] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickAction
+[28Jun2025 04:45:44.893] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[28Jun2025 04:45:44.893] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[28Jun2025 04:45:44.969] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[28Jun2025 04:45:44.969] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[28Jun2025 04:45:44.973] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_model_features, class traben.entity_model_features.forge.EMFForge
+java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing
+	at traben.entity_model_features.forge.EMFForge.<init>(EMFForge.java:37) ~[entity_model_features_forge_1.19.2-2.0.2.jar%23198!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23253!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[28Jun2025 04:45:44.974] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_texture_features, class traben.entity_texture_features.forge.ETFClientForge
+java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing
+	at traben.entity_texture_features.forge.ETFClientForge.<init>(ETFClientForge.java:51) ~[entity_texture_features_forge_1.19.2-6.0.1.jar%23199!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23253!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[28Jun2025 04:45:45.038] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/platform/network/NetworkDir
+[28Jun2025 04:45:45.065] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/majruszsdifficulty/items/CustomArmorMaterial
+[28Jun2025 04:45:45.069] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/majruszsdifficulty/items/CustomItemTier
+[28Jun2025 04:45:45.087] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/majruszsdifficulty/items/SoulJar$BonusType
+[28Jun2025 04:45:45.115] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/platform/RegHelper$VariantType
+[28Jun2025 04:45:45.125] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/platform/PlatformHelper$Env
+[28Jun2025 04:45:45.156] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/fastpaintings/DropMode
+[28Jun2025 04:45:45.162] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/platform/configs/ConfigType
+[28Jun2025 04:45:45.173] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/majruszsdifficulty/undeadarmy/UndeadArmy$Direction
+[28Jun2025 04:45:45.176] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/majruszsdifficulty/undeadarmy/UndeadArmy$Phase$State
+[28Jun2025 04:45:45.197] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/jozufozu/flywheel/config/BackendType
+[28Jun2025 04:45:45.202] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/client/CuriosClientConfig$Client$ButtonCorner
+[28Jun2025 04:45:45.210] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting link/infra/indium/renderer/aocalc/AoConfig
+[28Jun2025 04:45:45.225] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/fabricmc/fabric/api/renderer/v1/material/BlendMode
+[28Jun2025 04:45:45.227] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+[28Jun2025 04:45:45.229] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: reforgium, class link.infra.indium.Indium
+java.lang.ExceptionInInitializerError: null
+	at link.infra.indium.renderer.RenderMaterialImpl.<clinit>(RenderMaterialImpl.java:33) ~[reforgium-1.0.12a.jar%23230!/:?]
+	at link.infra.indium.renderer.ReforgiumRenderer.materialFinder(ReforgiumRenderer.java:49) ~[reforgium-1.0.12a.jar%23230!/:?]
+	at link.infra.indium.renderer.ReforgiumRenderer.<clinit>(ReforgiumRenderer.java:32) ~[reforgium-1.0.12a.jar%23230!/:?]
+	at link.infra.indium.Indium.<init>(Indium.java:119) ~[reforgium-1.0.12a.jar%23230!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23253!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.fabricmc.fabric.api.renderer.v1.material.BlendMode.<clinit>(BlendMode.java:33) ~[reforgium-1.0.12a.jar%23230!/:?]
+	... 18 more
+[28Jun2025 04:45:45.232] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting shadows/placebo/config/Property$Type
+[28Jun2025 04:45:45.263] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[28Jun2025 04:45:45.268] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.2.3 in server-side mode on FORGE!
+[28Jun2025 04:45:45.280] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lgow/endofherobrine/block/ModSkullBlock$Types
+[28Jun2025 04:45:45.282] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/keksuccino/fancymenu/util/file/type/FileMediaType
+[28Jun2025 04:45:45.335] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/utils/Env
+[28Jun2025 04:45:45.371] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting foundationgames/enhancedblockentities/util/EBEUtil
+[28Jun2025 04:45:45.373] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting foundationgames/enhancedblockentities/EBESetup
+[28Jun2025 04:45:45.388] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: enhancedblockentities, class foundationgames.enhancedblockentities.EnhancedBlockEntities
+java.lang.NoClassDefFoundError: net/minecraft/client/renderer/item/ItemPropertyFunction
+	at foundationgames.enhancedblockentities.EnhancedBlockEntities.<init>(EnhancedBlockEntities.java:41) ~[EnhancedBlockEntities-Reforged-1.19.2-0.8.0.jar%23196!/:1.19.2-0.8.0]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23253!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.renderer.item.ItemPropertyFunction
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 15 more
+[28Jun2025 04:45:45.402] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/builtbroken/ai/improvements/modifier/filters/FilterResult
+[28Jun2025 04:45:45.418] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[28Jun2025 04:45:45.420] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameRules$Category
+[28Jun2025 04:45:45.421] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[28Jun2025 04:45:45.423] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/networking/NetworkManager$Side
+[28Jun2025 04:45:45.470] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/majruszlibrary/animations/AnimationsDef$Easing
+[28Jun2025 04:45:45.480] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakType$Corner
+[28Jun2025 04:45:45.484] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakVersion$MissingTexture
+[28Jun2025 04:45:45.484] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakVersion$Generic
+[28Jun2025 04:45:45.485] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakVersion$Hotbar
+[28Jun2025 04:45:45.488] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakType$RecipeBook
+[28Jun2025 04:45:45.490] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakType$DebugChart
+[28Jun2025 04:45:45.492] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakVersion$Overlay
+[28Jun2025 04:45:45.494] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakVersion$PauseLayout
+[28Jun2025 04:45:45.499] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakType$InventoryShield
+[28Jun2025 04:45:45.502] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakType$GuiBackground
+[28Jun2025 04:45:45.504] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakVersion$TitleLayout
+[28Jun2025 04:45:45.505] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakVersion$SkyColor
+[28Jun2025 04:45:45.507] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakVersion$FogColor
+[28Jun2025 04:45:45.509] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/TweakVersion$WorldFog
+[28Jun2025 04:45:45.524] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$OS
+[28Jun2025 04:45:45.530] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/util/common/log/LogColor
+[28Jun2025 04:45:45.531] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Created new startup config backup at /workspaces/gaturro/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
+[28Jun2025 04:45:45.547] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/client/config/annotation/container/TweakCategory
+[28Jun2025 04:45:45.548] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/client/config/annotation/container/TweakSubcategory
+[28Jun2025 04:45:45.549] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/client/config/annotation/container/TweakEmbed
+[28Jun2025 04:45:45.550] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/ValidateConfig$Scan
+[28Jun2025 04:45:45.567] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Server config was reloaded
+[28Jun2025 04:45:45.572] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/reflect/TweakGroup
+[28Jun2025 04:45:45.583] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/SoundTweak
+[28Jun2025 04:45:45.593] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/CandyTweak
+[28Jun2025 04:45:45.598] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/GameplayTweak
+[28Jun2025 04:45:45.600] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/AnimationTweak
+[28Jun2025 04:45:45.602] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/SwingTweak
+[28Jun2025 04:45:45.603] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/tweak/GuiTweak
+[28Jun2025 04:45:45.604] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/client/config/gui/screen/MenuOption
+[28Jun2025 04:45:45.615] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/reflect/TweakStatus
+[28Jun2025 04:45:45.620] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/client/config/annotation/TweakGui$SliderType
+[28Jun2025 04:45:45.624] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/client/config/annotation/TweakGui$Position
+[28Jun2025 04:45:45.649] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/common/config/list/ListId
+[28Jun2025 04:45:45.654] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mod/adrenix/nostalgic/client/config/annotation/TweakGui$Condition
+[28Jun2025 04:45:45.662] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loaded 62 server controlled tweaks
+[28Jun2025 04:45:45.669] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/d9d7ce5286ea37c19806d8ae11302f2d
+[28Jun2025 04:45:45.671] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1fabb12dd5753dadade2f617da5b92b9
+[28Jun2025 04:45:45.672] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/f6d9ad53d4043869ab1dd54191baa49e
+[28Jun2025 04:45:45.673] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9bf8cd8edcf737c5b800a89834283973
+[28Jun2025 04:45:45.674] [modloading-worker-0/WARN] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [WARN] Nostalgic Tweaks server support is still in-development
+[28Jun2025 04:45:45.674] [modloading-worker-0/WARN] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [WARN] Please report any problems you encounter
+[28Jun2025 04:45:45.674] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [FORGE] server environment
+[28Jun2025 04:45:45.792] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 5 errors found
+[28Jun2025 04:45:45.868] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID c6f6feca-bce5-40c7-ba72-d626097f477f
+[28Jun2025 04:45:45.869] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-06-28_04.45.45-fml.txt
+[28Jun2025 04:45:45.879] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 934236cf-7fe9-4814-bf40-98e6c514c837
+[28Jun2025 04:45:45.885] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	True Darkness (darkness) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+	Entity Model Features (entity_model_features) has failed to load correctly
+§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing,
+	Entity Texture Features (entity_texture_features) has failed to load correctly
+§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,
+	Reforgium (reforgium) has failed to load correctly
+§7java.lang.ExceptionInInitializerError: null,
+	EnhancedBlockEntities (enhancedblockentities) has failed to load correctly
+§7java.lang.NoClassDefFoundError: net/minecraft/client/renderer/item/ItemPropertyFunction
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:243) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$24(ModLoader.java:208) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:208) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23252!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23256!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23251!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
