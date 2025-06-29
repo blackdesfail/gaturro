@@ -1488,6 +1488,12 @@
     },
     "done": true
   },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2025-06-29 03:53:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2025-06-28 06:00:08 +0000"
@@ -2306,6 +2312,12 @@
   "repurposed_structures:root": {
     "criteria": {
       "always": "2025-06-28 04:50:59 +0000"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2025-06-29 03:53:38 +0000"
     },
     "done": true
   },
