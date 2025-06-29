@@ -269,6 +269,7 @@
       "cooked_mutton": "2025-06-28 06:15:43 +0000",
       "cooked_beef": "2025-06-28 05:11:13 +0000",
       "apple": "2025-06-29 00:31:22 +0000",
+      "mutton": "2025-06-29 01:16:21 +0000",
       "bread": "2025-06-28 05:14:44 +0000",
       "rotten_flesh": "2025-06-28 05:31:35 +0000",
       "salmon": "2025-06-29 00:31:06 +0000"
@@ -1348,8 +1349,10 @@
     "criteria": {
       "minecraft:sunflower_plains": "2025-06-29 00:46:48 +0000",
       "minecraft:windswept_hills": "2025-06-28 04:58:32 +0000",
+      "minecraft:beach": "2025-06-29 01:09:42 +0000",
       "minecraft:river": "2025-06-28 05:59:57 +0000",
       "minecraft:stony_shore": "2025-06-28 06:05:36 +0000",
+      "minecraft:cold_ocean": "2025-06-29 01:10:28 +0000",
       "minecraft:forest": "2025-06-28 04:56:09 +0000",
       "minecraft:ocean": "2025-06-28 06:18:04 +0000",
       "minecraft:flower_forest": "2025-06-28 06:05:53 +0000",
