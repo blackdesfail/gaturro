@@ -6659,3 +6659,16 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [29Jun2025 00:56:22.916] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/FilterMask$Type
 [29Jun2025 00:56:22.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <blackdesfail> fuck you
 [29Jun2025 00:57:04.142] [dimthread_server_overworld/INFO] [net.minecraft.server.MinecraftServer/]: ander31 has made the advancement [Take Aim]
+[29Jun2025 00:59:03.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The difficulty has been set to Hard
+[29Jun2025 01:00:36.288] [dimthread_server_overworld/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=426, y=72, z=-1020}
+[29Jun2025 01:03:12.497] [Worker-Main1/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [7, -65], pos: BlockPos{x=112, y=-4, z=-1029}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / more_underground_structures:creepy_4]
+[29Jun2025 01:03:15.956] [dimthread_server_overworld/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity mojangsecurityentity:waiting_obs but it was marked as removed already
+[29Jun2025 01:03:16.000] [dimthread_server_overworld/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity mojangsecurityentity:placer but it was marked as removed already
+[29Jun2025 01:03:16.043] [dimthread_server_overworld/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity mojangsecurityentity:placer but it was marked as removed already
+[29Jun2025 01:04:29.593] [dimthread_server_overworld/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Explosion$BlockInteraction
+[29Jun2025 01:06:55.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of blackdesfail) moved wrongly! 0.31569082398499404
+[29Jun2025 01:06:55.237] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of blackdesfail) moved wrongly! 0.7664307410763058
+[29Jun2025 01:06:55.295] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of blackdesfail) moved wrongly! 1.2187075351416752
+[29Jun2025 01:06:55.336] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of blackdesfail) moved wrongly! 1.4818779375192435
+[29Jun2025 01:06:55.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of blackdesfail) moved wrongly! 0.269128766743961
+[29Jun2025 01:06:55.495] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of blackdesfail) moved wrongly! 0.269128766743961
