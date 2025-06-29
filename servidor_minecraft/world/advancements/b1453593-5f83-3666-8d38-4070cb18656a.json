@@ -888,6 +888,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-06-29 00:47:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-06-28 04:57:34 +0000"
@@ -915,6 +921,12 @@
   "aether:recipes/redstone/skyroot_tripwire_hook": {
     "criteria": {
       "has_string": "2025-06-28 05:02:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-06-29 00:47:45 +0000"
     },
     "done": true
   },
@@ -1242,6 +1254,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-06-29 00:47:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-06-28 04:57:34 +0000"
@@ -1328,6 +1346,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:sunflower_plains": "2025-06-29 00:46:48 +0000",
       "minecraft:windswept_hills": "2025-06-28 04:58:32 +0000",
       "minecraft:river": "2025-06-28 05:59:57 +0000",
       "minecraft:stony_shore": "2025-06-28 06:05:36 +0000",
