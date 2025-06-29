@@ -11667,3 +11667,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [29Jun2025 01:12:24.527] [Worker-Main2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [1, -47], pos: BlockPos{x=16, y=43, z=-738}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / more_underground_structures:creepy_4]
 [29Jun2025 01:15:41.239] [dimthread_server_overworld/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-65, y=83, z=-489}
 [29Jun2025 01:27:49.440] [dimthread_server_overworld/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-64, y=73, z=-353}
+[29Jun2025 01:29:57.501] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/DoubleBlockCombiner$BlockType
+[29Jun2025 01:36:31.894] [dimthread_server_overworld/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/memory/MemoryStatus
+[29Jun2025 01:36:31.895] [dimthread_server_overworld/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/behavior/Behavior$Status
+[29Jun2025 01:36:31.896] [dimthread_server_overworld/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/behavior/GateBehavior$OrderPolicy
+[29Jun2025 01:36:31.896] [dimthread_server_overworld/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/behavior/GateBehavior$RunningPolicy
+[29Jun2025 01:36:45.740] [dimthread_server_overworld/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/7907, l='ServerLevel[world]', x=125.62, y=-256.00, z=-353.01] died, message: 'Villager fell out of the world'
