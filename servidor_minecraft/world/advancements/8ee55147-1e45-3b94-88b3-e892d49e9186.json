@@ -948,6 +948,12 @@
     },
     "done": true
   },
+  "aether:recipes/tools/swet_lead": {
+    "criteria": {
+      "has_swet_balls": "2025-06-29 03:59:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2025-06-28 04:55:02 +0000"
@@ -1938,6 +1944,12 @@
     },
     "done": true
   },
+  "aether:recipes/redstone/swet_slime_block": {
+    "criteria": {
+      "has_swet_balls": "2025-06-29 03:59:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone_slab": {
     "criteria": {
       "has_smooth_stone": "2025-06-28 05:20:53 +0000"
@@ -2646,6 +2658,12 @@
     },
     "done": true
   },
+  "aether:recipes/redstone/swet_sticky_piston": {
+    "criteria": {
+      "has_swet_balls": "2025-06-29 03:59:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-06-28 05:00:00 +0000"
@@ -2661,6 +2679,12 @@
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-06-28 05:03:52 +0000"
+    },
+    "done": true
+  },
+  "aether:read_lore": {
+    "criteria": {
+      "lore_book_entry": "2025-06-29 04:05:30 +0000"
     },
     "done": true
   },
