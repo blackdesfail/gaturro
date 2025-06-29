@@ -11673,3 +11673,8 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [29Jun2025 01:36:31.896] [dimthread_server_overworld/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/behavior/GateBehavior$OrderPolicy
 [29Jun2025 01:36:31.896] [dimthread_server_overworld/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/behavior/GateBehavior$RunningPolicy
 [29Jun2025 01:36:45.740] [dimthread_server_overworld/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/7907, l='ServerLevel[world]', x=125.62, y=-256.00, z=-353.01] died, message: 'Villager fell out of the world'
+[29Jun2025 01:51:43.394] [dimthread_server_overworld/INFO] [net.minecraft.server.MinecraftServer/]: blackdesfail was slain by Vindicator
+[29Jun2025 01:53:42.545] [dimthread_server_overworld/INFO] [net.minecraft.server.MinecraftServer/]: blackdesfail was slain by Vindicator
+[29Jun2025 01:53:52.994] [dimthread_server_overworld/INFO] [net.minecraft.server.MinecraftServer/]: ander31 was slain by Vindicator
+[29Jun2025 01:56:18.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ander31 has made the advancement [Isn't It Iron Pick]
+[29Jun2025 01:57:59.289] [dimthread_server_overworld/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/commands/SetBlockCommand$Mode
